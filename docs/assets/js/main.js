@@ -71,4 +71,5 @@
 					visibleClass: 'navPanel-visible'
 				});
 
+
 })(jQuery);

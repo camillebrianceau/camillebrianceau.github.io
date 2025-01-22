@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
-		color: #6f2082;
+		color: #000;
 		font-size: 13pt;
 		line-height: 2em;
 	}
@@ -109,7 +109,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6f2082;
+		color: #000;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #006376;
+		color: #171717;
 		text-decoration: underline;
 	}
 
@@ -155,7 +155,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 700;
-		color: #6f2082;
+		color: #000;
 	}
 
 	i, em {
@@ -209,7 +209,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6f2082;
+		color: #000;
 	}
 
 /* Container */
@@ -219,7 +219,7 @@ input, select, textarea {
 		max-width: 100%;
 		width: 64em;
 	}
-
+	
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1996,6 +1996,14 @@ input, select, textarea {
 				ul.contact li:hover a.fa-twitter {
 					background-color: #2DAAE4;
 				}
+				
+				ul.contact li:hover a.fa-location-arrow {
+                    background-color: #429b44;
+                }
+
+				ul.contact li:hover a.fa-envelope{
+                    background-color: #BD081C;
+                }
 
 				ul.contact li:hover a.fa-dribbble {
 					background-color: #C4376B;
@@ -2385,12 +2393,18 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		cursor: default;
+		cursor: default;    
+		border-bottom: solid 1px #6f2082;
+		/* box-shadow: 0 1px 2px #6f2082; Slight shadow for visual depth */
+
 	}
 
 		#nav ul {
 			position: relative;
 			z-index: 1001;
+			padding-left: 0; /* Remove default padding */
+			display: flex;
+			justify-content: center; /* Centering the navbar items horizontally */
 		}
 
 		#nav li {
@@ -2407,8 +2421,17 @@ input, select, textarea {
 
 			#nav li > ul {
 				display: none;
+				position: absolute;
+				top: 100%;
+				left: 0;
+				background-color: #fff;
+				padding: 0.5em 0;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+				min-width: 150px;
+				
 			}
-
+			
+			/* Top-Level Links (Home, Research, etc.) */
 			#nav li a, #nav li span {
 				-moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
 				-webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
@@ -2417,47 +2440,79 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				text-decoration: none;
-				color: #6f2082;
+				/* color: #6f2082; */
 				top: -6px;
-				padding: 6px 1.5em 0.25em 1.5em;
+				padding: 6px 1.5em;
 				border-bottom-left-radius: 6px;
 				border-bottom-right-radius: 6px;
 				outline: 0;
 			}
 
-			#nav li:hover, #nav li.active {
+			/* #nav li:hover, #nav li.active {
 				top: 3px;
+			} */
+
+			#nav li:hover > ul {
+				display: block; /* Affiche le sous-menu */
 			}
+			
 
 			#nav li:hover a, #nav li:hover span {
-				background: #6f2082;
-				color: #fff;
+				/* background: #6f2082;
+				color: #fff; */
+  				font-weight: bold;
+				color: #6f2082;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #6f2082;
-				color: #fff;
+				/* background: #6f2082;
+				color: #fff; */
+  				font-weight: bold;
+				color: #6f2082;
 			}
 
 			#nav li.current a {
-				background: #6f2082;
-				color: #fff;
+				/* background: #6f2082;
+				color: #fff; */
+  				font-weight: bold;
+				color: #6f2082;
+			}
+			
+			#nav li.logo {
+				padding-right: 5em; /* Adjust this value to create more space between logo and links */
+				position: relative;
+			}
+
+			#nav li.logo_aramis img {
+				height: 3em;
+				padding-bottom: 2px;
+				/* position: absolute; */
+				padding-top: 5px;
+				left: 1em; /* Position logo on the left */
+				/* top: 50%; */
+				/* transform: translateY(-50%); Vertically center logo */
+				margin-right: 15em; /* Add space between the logo and the links */
 			}
 
 	.dropotron {
+		position: relative;
+
+		z-index: 1000; /* Assure la superposition */
 		list-style: none;
-		background: #6f2082;
+		background: #fff;
 		color: #fff;
 		border-radius: 6px;
 		line-height: 2.75em;
 		text-align: center;
 		font-family: 'Open Sans Condensed', sans-serif;
-		font-weight: 700;
+		/* font-weight: 700; */
 		text-transform: uppercase;
 		padding: 1em 0;
 		text-align: left;
-		min-width: 14em;
-		margin-top: -1em;
+		/* min-width: 10em; */
+		top: 0; 
+		left: 0; /* Aligne 
+		/* margin-top: -1em; */
 		box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -2467,19 +2522,19 @@ input, select, textarea {
 
 			.dropotron li > a, .dropotron li > span {
 				display: block;
-				color: #D7DAD8;
+				color: #171717;
 				text-decoration: none;
 				padding: 0 1.25em;
 			}
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: #fff;
-				background: #7B8780;
+				color: #6f2082;
+				/* background: #6f2082; */
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #fff;
-				background: #7B8780;
+				color: #6f2082;
+				/* background: #6f2082; */
 			}
 
 			.dropotron li:first-child {
@@ -2487,7 +2542,7 @@ input, select, textarea {
 			}
 
 		.dropotron.level-0 {
-			margin-top: 1em;
+			/* margin-top: 1em; */
 			font-size: 0.9em;
 		}
 
@@ -2496,8 +2551,8 @@ input, select, textarea {
 				position: absolute;
 				left: 50%;
 				margin-left: -1em;
-				top: -0.65em;
-				border-bottom: solid 1em #6f2082;
+				/* top: -0.65em; */
+				border-bottom: solid 1em #fff;
 				border-left: solid 1em transparent;
 				border-right: solid 1em transparent;
 			}
@@ -2507,24 +2562,36 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		background-image: url("../../images/brain_colored.jpg");
-		background-position: center center;
+		background-position: center top;
 		/* background-position: top left, top left, center center; */
-		background-repeat: repeat, repeat, no-repeat;
+		background-repeat: no-repeat;
 		background-size: cover;
+		width: 100%; /* Assurez-vous que la largeur occupe 100% de la fenêtre */
+   		height: calc(100vh - 3.25em); ; /* Assurez-vous que la hauteur de la bannière est égale */
 		z-index: 1;
-		padding: 14em 0;
+		/* padding-top: -3.25em; */
+		/* padding: 100vh; Adjust this for better responsive height (use vh units for viewport-based sizing) */
 	}
 
 		#banner .content {
-			position: relative;
-			background-color: #6e20829a;
-			/* background-image: uurl("../../images/brain_colored.jpg"); */
-			/* background-position: top left, center center; */
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%; /* Ensure content spans the entire width */
+    		height: 100%; /* Make content fill the full height of the banner */
+			background-color: #0000005e;
+			display: flex;
+			flex-direction: column;
+			justify-content: center; /* Vertically center content */
+			align-items: center; /* Horizontally center content */
+			z-index: 2; /* Ensure content is above the background */
+			/* background-position: top left, top left, center center;
 			background-size: auto, 100% 250%;
-			background-repeat: repeat, no-repeat;
+			background-repeat: repeat, repeat, no-repeat;
 			text-align: center;
+			background-size: cover;
 			margin: 0;
-			padding: 4em 0 3.5em 0;
+			padding: 4em 0 3.5em 0; */
 		}
 
 			#banner .content h2 {
@@ -2550,13 +2617,16 @@ input, select, textarea {
 				transition: border-color .2s ease-in-out, color .2s ease-in-out;
 				color: #ffffff;
 				background: transparent !important;
-				/* border: solid 4px #6f2082; */
+				border: solid 1px #fff;
 				/* border-color: rgba(87, 93, 89, 0.35); */
-				font-size: 1.5em;
+				font-size: 1em;
+				border-radius: 50%;
+				margin-top: 3em;
 			}
 
 				#banner .content .button:hover {
 					color: #acadac;
+					border: solid 1px #acadac;
 					/* border-color: rgba(87, 93, 89, 0.75); */
 				}
 
@@ -2569,12 +2639,98 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #6f2082;
-		border-bottom: solid 5px #6f2082;
-		border-top-width: 35px;
-		border-bottom-width: 10px;
+		border-top: solid 1px #6f2082;
+		border-bottom: solid 1px #6f2082;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
 		padding: 6em 0 6em 0;
 	}
+
+
+/* Styles pour la section divisée en deux parties */
+#split-section {
+    display: flex;
+    padding: 2em;
+}
+
+/* Partie gauche - Titre et description */
+.left1 {
+    width: 30%; /* Prend 1/3 de la largeur */
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    /* height: 100vh; Utiliser la hauteur de la fenêtre pour centrer */
+}
+
+.left1 h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center center;
+	
+}
+
+.left2 {
+    width: 66.66%; /* Prend 2/3 de la largeur */
+    display: flex;
+	flex-wrap: wrap; /* Permet aux cases de se placer sur plusieurs lignes */
+	gap: 1em;
+}
+
+/* Partie droite - Les cases */
+
+.right1 {
+    width: 30%; /* Prend 1/3 de la largeur */
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    /* height: 100vh; Utiliser la hauteur de la fenêtre pour centrer */
+}
+
+.right1 h2 {
+    font-size: 2.5em;	
+    margin-bottom: 1em;
+    text-align: center center;
+	
+}
+
+.right2 {
+    width: 66.66%; /* Prend 2/3 de la largeur */
+    display: flex;
+	flex-wrap: wrap; /* Permet aux cases de se placer sur plusieurs lignes */
+	gap: 1em;
+}
+
+/* Colonnes contenant les cases */
+.column {
+    width: 48%; /* Chaque colonne prend presque la moitié de la largeur de la droite */
+    display: flex;
+    flex-direction: column;justify-content: center;
+    gap: 1em;
+	position: relative;
+}
+
+/* Styles de la case */
+.box-section {
+    /* background-color: #ddd; */
+	border: solid 2px #6f2082;
+	border-radius: 50%;
+    padding: 2em;
+    text-align: center;
+    height: 50px; /* Hauteur initiale de chaque case */
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Évite que la description dépasse la case */
+}
+
+.box-section p {
+    margin: 0;
+    font-size: 1.2em;
+}
 
 /* Sidebar + Content */
 
@@ -2591,7 +2747,8 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 3em 0 3em 0;
+		background: #fff;
 	}
 
 		#footer a {
@@ -2603,7 +2760,7 @@ input, select, textarea {
 		}
 
 			#footer h2.major span {
-				background: #f2f5f3;
+				background: #fff;
 			}
 
 /* Copyright */
