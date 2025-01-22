@@ -23,7 +23,7 @@ index.html
 
 This website is designed to be collaborative. We encourage every team member to submit a 
 Pull Request (PR) if they notice any issues or wish to propose a new feature or improvement. 
-For those unfamiliar with the process, refer to (GitHub's guide on creating a pull request)[https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request] 
+For those unfamiliar with the process, refer to [GitHub's guide on creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 for detailed instructions. Several additions are possible on the site. 
 Please adhere to the following guidelines to maintain consistency in style:
 
