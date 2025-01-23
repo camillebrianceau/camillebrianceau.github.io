@@ -325,9 +325,9 @@ input, select, textarea {
 			margin-left: 16.66667%;
 		}
 
-		.row > .col-4 {
+		/* .row > .col-4 {
 			width: 20%;
-		}
+		} */
 
 		.row > .col-3 {
 			width: 25%;
@@ -1790,6 +1790,8 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			border: solid 1px #6f2082;
+			border-radius: 10px;
 		}
 
 		.image.left {
@@ -1997,6 +1999,9 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 				
+				ul.contact li:hover a.fa-comments {
+                    background-color: #c37207;
+                }
 				ul.contact li:hover a.fa-location-arrow {
                     background-color: #429b44;
                 }
@@ -2005,7 +2010,7 @@ input, select, textarea {
                     background-color: #BD081C;
                 }
 
-				ul.contact li:hover a.fa-dribbble {
+				ul.contact li:hover a.fa-readme {
 					background-color: #C4376B;
 				}
 
@@ -2013,12 +2018,16 @@ input, select, textarea {
 					background-color: #006599;
 				}
 
-				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
+				ul.contact li:hover a.fa-user {
+					background-color: #d9d04c;
 				}
 
-				ul.contact li:hover a.fa-google-plus {
+				ul.contact li:hover a.fa-python {
 					background-color: #DA2713;
+				}
+
+				ul.contact li:hover a.fa-github {
+					background-color: #000000;
 				}
 
 			ul.contact li:active {
@@ -2245,6 +2254,8 @@ input, select, textarea {
 
 	.box.feature {
 		text-align: center;
+		/* border: solid 1px #6f2082;
+		border-radius: 10px; */
 	}
 
 	.box.post header {
@@ -2730,6 +2741,22 @@ input, select, textarea {
 .box-section p {
     margin: 0;
     font-size: 1.2em;
+}
+
+.leftin {
+	/* /* margin-bottom: 30px; */
+	padding-bottom: 2px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.formergrey {
+	color: #008c9e;
+}
+
+.jointheteam{
+
+	padding-bottom: 10em;
 }
 
 /* Sidebar + Content */
