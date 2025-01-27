@@ -3,6 +3,21 @@
 <html lang="en-US">
   <head>
     <title>ARAMIS &#8211; Brain Data Science</title>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+          fetch("header.html") // Charge le fichier header.html
+              .then(response => {
+                  if (!response.ok) throw new Error("Erreur lors du chargement du header");
+                  return response.text();
+              })
+              .then(data => {
+                  // Insère le contenu du header dans l'élément `<header>` de la page
+                  document.querySelector("header").innerHTML = data;
+              })
+              .catch(error => console.error("Erreur :", error));
+      });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
@@ -57,15 +72,8 @@
   <body data-rsssl="1" class="home page-template-default page page-id-1098 wp-custom-logo"> 
 
     <!-- Header -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-          fetch("header.html")
-              .then(response => response.text())
-              .then(data => {
-                  document.querySelector("header").innerHTML = data;
-              });
-      });
-    </script>
+    
+    <template id="header-template">TEST</template>
     <!-- /Header -->
 
 
