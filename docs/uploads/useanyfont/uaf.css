@@ -1,0 +1,10 @@
+			@font-face {
+				font-family: 'nexa-light';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/170305094400nexa-light.eot');
+				src: local('nexa-light'), url('/wp-content/uploads/useanyfont/170305094400nexa-light.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/170305094400nexa-light.woff') format('woff');
+			}
+            
+            .nexa-light{font-family: 'nexa-light' !important;}
+            
+		

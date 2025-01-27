@@ -1,0 +1,2131 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: edsBootstrap Pro\n"
+"POT-Creation-Date: 2017-04-07 02:33+0600\n"
+"PO-Revision-Date: 2017-04-07 02:32+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "Oooops!"
+msgstr ""
+
+#: 404.php:22
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:26
+msgid "Back to home"
+msgstr ""
+
+#: archive.php:110 index.php:121 plugins/shortcode.php:293 search.php:64
+msgid "Previous"
+msgstr ""
+
+#: archive.php:111 index.php:122 plugins/shortcode.php:294 search.php:65
+msgid "Next"
+msgstr ""
+
+#: archive.php:112 index.php:123 plugins/shortcode.php:295 search.php:66
+msgid "&nbsp;"
+msgstr ""
+
+#: comments.php:29
+msgid "Recent Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:50 framework/config/framework.config.php:87
+msgid "https://edatastyle.com/"
+msgstr ""
+
+#: footer.php:50
+#, php-format
+msgid "Design & Development by %s"
+msgstr ""
+
+#: framework/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: framework/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: framework/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: framework/classes/framework.class.php:365
+msgid "Settings saved."
+msgstr ""
+
+#: framework/classes/framework.class.php:367
+msgid "Save"
+msgstr ""
+
+#: framework/classes/framework.class.php:367
+msgid "Saving..."
+msgstr ""
+
+#: framework/classes/framework.class.php:368
+msgid "Restore"
+msgstr ""
+
+#: framework/classes/framework.class.php:371
+#: framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: framework/classes/framework.class.php:375
+msgid "show all options"
+msgstr ""
+
+#: framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: framework/classes/options.class.php:131
+#: framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: framework/classes/shortcode.class.php:82
+#: framework/classes/shortcode.class.php:90
+#: framework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: framework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: framework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: framework/config/framework.config.php:8
+msgid "EDS Theme options"
+msgstr ""
+
+#: framework/config/framework.config.php:13
+msgid "EDS BOOTSTRAP"
+msgstr ""
+
+#: framework/config/framework.config.php:28
+msgid "General Settings"
+msgstr ""
+
+#: framework/config/framework.config.php:36
+msgid "Global"
+msgstr ""
+
+#: framework/config/framework.config.php:45
+#: framework/config/framework.config.php:108
+msgid ""
+"This tab contains common setting options which will be applied to the whole "
+"theme."
+msgstr ""
+
+#: framework/config/framework.config.php:50
+msgid "Header Logo"
+msgstr ""
+
+#: framework/config/framework.config.php:56
+msgid "Footer Logo"
+msgstr ""
+
+#: framework/config/framework.config.php:62
+msgid "Favicon"
+msgstr ""
+
+#: framework/config/framework.config.php:63
+msgid "http://www.favicon.cc/"
+msgstr ""
+
+#: framework/config/framework.config.php:63
+msgid ""
+"Upload a 16 x 16 px image that will represent your website's favicon. You "
+"can refer to this link for more information on how to make it: <a href=\""
+msgstr ""
+
+#: framework/config/framework.config.php:102
+msgid "Top Bar & Social "
+msgstr ""
+
+#: framework/config/framework.config.php:113
+msgid "Top Bar Location"
+msgstr ""
+
+#: framework/config/framework.config.php:119
+msgid "Top Bar Email"
+msgstr ""
+
+#: framework/config/framework.config.php:126
+msgid "Top Bar Phone"
+msgstr ""
+
+#: framework/config/framework.config.php:132
+msgid "Top Bar Social Button"
+msgstr ""
+
+#: framework/config/framework.config.php:138
+msgid "Footer Social Button"
+msgstr ""
+
+#: framework/config/framework.config.php:144
+msgid "Facebook"
+msgstr ""
+
+#: framework/config/framework.config.php:149
+#: framework/config/framework.config.php:822
+msgid "Twitter"
+msgstr ""
+
+#: framework/config/framework.config.php:154
+#: framework/config/framework.config.php:828
+msgid "Google Plus"
+msgstr ""
+
+#: framework/config/framework.config.php:159
+#: framework/config/framework.config.php:847
+msgid "Pinterest"
+msgstr ""
+
+#: framework/config/framework.config.php:164
+msgid "linkedin"
+msgstr ""
+
+#: framework/config/framework.config.php:169
+msgid "youtube"
+msgstr ""
+
+#: framework/config/framework.config.php:174
+msgid "instagram"
+msgstr ""
+
+#: framework/config/framework.config.php:179
+msgid "reddit"
+msgstr ""
+
+#: framework/config/framework.config.php:184
+msgid "vimeo"
+msgstr ""
+
+#: framework/config/framework.config.php:201
+msgid "Extensions or Module"
+msgstr ""
+
+#: framework/config/framework.config.php:210
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/config/framework.config.php:217
+msgid "Top Bar"
+msgstr ""
+
+#: framework/config/framework.config.php:223
+msgid "Team Module"
+msgstr ""
+
+#: framework/config/framework.config.php:230
+#: inc/wp-admin/edsbootstrap-admin-page.php:328
+msgid "Portfolio Module"
+msgstr ""
+
+#: framework/config/framework.config.php:236
+msgid "Testimonial  Module"
+msgstr ""
+
+#: framework/config/framework.config.php:249
+msgid "Styling Options"
+msgstr ""
+
+#: framework/config/framework.config.php:263
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: framework/config/framework.config.php:264
+#: framework/config/framework.config.php:271
+msgid "The theme comes with unlimited color schemes for your theme's styling."
+msgstr ""
+
+#: framework/config/framework.config.php:270
+msgid "Secondary Color Scheme "
+msgstr ""
+
+#: framework/config/framework.config.php:277
+msgid "Title Color Scheme "
+msgstr ""
+
+#: framework/config/framework.config.php:278
+msgid ""
+"The theme comes with unlimited color schemes for your theme's styling.(H1,H2,"
+"H3,H4,H5,H6)"
+msgstr ""
+
+#: framework/config/framework.config.php:285
+msgid "Navigation Style"
+msgstr ""
+
+#: framework/config/framework.config.php:296
+msgid "Page Layout Style"
+msgstr ""
+
+#: framework/config/framework.config.php:309
+msgid "Background Color or Image"
+msgstr ""
+
+#: framework/config/framework.config.php:316
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/config/framework.config.php:331
+msgid "Homepage & Slider"
+msgstr ""
+
+#: framework/config/framework.config.php:345
+msgid "Static Front Page Layout"
+msgstr ""
+
+#: framework/config/framework.config.php:359
+msgid "Home Page landing Type"
+msgstr ""
+
+#: framework/config/framework.config.php:371
+msgid "Home Page Slider"
+msgstr ""
+
+#: framework/config/framework.config.php:372
+msgid "Add New Slider"
+msgstr ""
+
+#: framework/config/framework.config.php:373
+msgid "Slider"
+msgstr ""
+
+#: framework/config/framework.config.php:374
+msgid " Upload your own custom background Image, Captions, Read more"
+msgstr ""
+
+#: framework/config/framework.config.php:381 inc/customizer.php:64
+msgid "Image"
+msgstr ""
+
+#: framework/config/framework.config.php:387
+msgid "Title"
+msgstr ""
+
+#: framework/config/framework.config.php:392
+msgid "Captions Text"
+msgstr ""
+
+#: framework/config/framework.config.php:397 inc/customizer.php:134
+msgid "Button Text"
+msgstr ""
+
+#: framework/config/framework.config.php:398 inc/onepage.php:375
+#: plugins/widgets.php:536
+msgid "Read More"
+msgstr ""
+
+#: framework/config/framework.config.php:403
+msgid "Button URL"
+msgstr ""
+
+#: framework/config/framework.config.php:409
+msgid "Captions position"
+msgstr ""
+
+#: framework/config/framework.config.php:425
+msgid "Upload Field with Video"
+msgstr ""
+
+#: framework/config/framework.config.php:428
+msgid "Upload Video"
+msgstr ""
+
+#: framework/config/framework.config.php:429
+msgid "Choose a Video"
+msgstr ""
+
+#: framework/config/framework.config.php:430
+msgid "Use This Video"
+msgstr ""
+
+#: framework/config/framework.config.php:433
+msgid " Upload Only MP4 Video"
+msgstr ""
+
+#: framework/config/framework.config.php:438
+msgid "Video poster"
+msgstr ""
+
+#: framework/config/framework.config.php:445
+msgid "Video Title"
+msgstr ""
+
+#: framework/config/framework.config.php:451
+msgid "Video Captions Text"
+msgstr ""
+
+#: framework/config/framework.config.php:457
+msgid "Video Button Text"
+msgstr ""
+
+#: framework/config/framework.config.php:464
+msgid "Video Button URL"
+msgstr ""
+
+#: framework/config/framework.config.php:470
+msgid "Video Captions position"
+msgstr ""
+
+#: framework/config/framework.config.php:484
+msgid "Choose A Backgorund Image"
+msgstr ""
+
+#: framework/config/framework.config.php:491
+msgid "Image Title"
+msgstr ""
+
+#: framework/config/framework.config.php:497
+msgid "Image Captions Text"
+msgstr ""
+
+#: framework/config/framework.config.php:503
+msgid "Image Button Text"
+msgstr ""
+
+#: framework/config/framework.config.php:510
+msgid "Image Button URL"
+msgstr ""
+
+#: framework/config/framework.config.php:516
+msgid "Image Captions position"
+msgstr ""
+
+#: framework/config/framework.config.php:537
+msgid "Blog Options"
+msgstr ""
+
+#: framework/config/framework.config.php:546
+msgid ""
+"From here, you can control the appearance and functionality of your posts "
+"page."
+msgstr ""
+
+#: framework/config/framework.config.php:555
+msgid "Blog Layout Style"
+msgstr ""
+
+#: framework/config/framework.config.php:569
+msgid "Blog default Title"
+msgstr ""
+
+#: framework/config/framework.config.php:573
+msgid "Blog - Posts List "
+msgstr ""
+
+#: framework/config/framework.config.php:574
+msgid "Blog List Default Title Text "
+msgstr ""
+
+#: framework/config/framework.config.php:579
+msgid "Blog default Sub Title"
+msgstr ""
+
+#: framework/config/framework.config.php:583
+msgid "Blog - Posts List Default Sub Title "
+msgstr ""
+
+#: framework/config/framework.config.php:584
+msgid "Blog List Default Sub Title Text "
+msgstr ""
+
+#: framework/config/framework.config.php:590
+#: framework/config/shortcode.config.php:226
+msgid "Blog posts Column"
+msgstr ""
+
+#: framework/config/framework.config.php:592
+#: framework/config/framework.config.php:722
+#: framework/config/shortcode.config.php:228
+msgid "1 Columns"
+msgstr ""
+
+#: framework/config/framework.config.php:593
+#: framework/config/framework.config.php:723
+#: framework/config/shortcode.config.php:229 plugins/widgets.php:209
+msgid "2 Columns"
+msgstr ""
+
+#: framework/config/framework.config.php:594
+#: framework/config/framework.config.php:724
+#: framework/config/shortcode.config.php:230 plugins/widgets.php:210
+msgid "3 Columns"
+msgstr ""
+
+#: framework/config/framework.config.php:599
+#: framework/config/shortcode.config.php:235
+msgid "Select a posts Column Layout for the Blog posts. it will override this."
+msgstr ""
+
+#: framework/config/framework.config.php:605
+msgid "Blog Post Show"
+msgstr ""
+
+#: framework/config/framework.config.php:607
+msgid "excerpt"
+msgstr ""
+
+#: framework/config/framework.config.php:608
+msgid "content"
+msgstr ""
+
+#: framework/config/framework.config.php:620
+msgid "Read More Button Text"
+msgstr ""
+
+#: framework/config/framework.config.php:624
+msgid "Continue Reading "
+msgstr ""
+
+#: framework/config/framework.config.php:629
+msgid "Meta Info to Show"
+msgstr ""
+
+#: framework/config/framework.config.php:631
+msgid "Author Name"
+msgstr ""
+
+#: framework/config/framework.config.php:632
+msgid "Date"
+msgstr ""
+
+#: framework/config/framework.config.php:633
+msgid "Categories"
+msgstr ""
+
+#: framework/config/framework.config.php:634
+msgid "Comment Count"
+msgstr ""
+
+#: framework/config/framework.config.php:637
+msgid "Choose What Meta Info to Show."
+msgstr ""
+
+#: framework/config/framework.config.php:644
+msgid "Tag Links"
+msgstr ""
+
+#: framework/config/framework.config.php:646
+msgid ""
+"Use this button if you want to show a tag cloud below the related posts."
+msgstr ""
+
+#: framework/config/framework.config.php:652
+msgid "Related Posts"
+msgstr ""
+
+#: framework/config/framework.config.php:654
+msgid ""
+"Use this button to show related posts with thumbnails below the content area "
+"in a post."
+msgstr ""
+
+#: framework/config/framework.config.php:659
+msgid "Related posts default Title"
+msgstr ""
+
+#: framework/config/framework.config.php:663
+msgid "Related posts"
+msgstr ""
+
+#: framework/config/framework.config.php:664
+msgid "Blog Single Post Default Title "
+msgstr ""
+
+#: framework/config/framework.config.php:669
+msgid "Number of related posts"
+msgstr ""
+
+#: framework/config/framework.config.php:671
+msgid "Enter the number of posts to show in the related posts section."
+msgstr ""
+
+#: framework/config/framework.config.php:691
+msgid "Author Box"
+msgstr ""
+
+#: framework/config/framework.config.php:693
+msgid ""
+"Use this button if you want to display author information below the article."
+msgstr ""
+
+#: framework/config/framework.config.php:714
+msgid ""
+"From here, you can control the appearance and functionality of your "
+"Portfolio  page."
+msgstr ""
+
+#: framework/config/framework.config.php:720
+msgid "Default Portfolio Columns"
+msgstr ""
+
+#: framework/config/framework.config.php:725 plugins/widgets.php:211
+msgid "4 Columns"
+msgstr ""
+
+#: framework/config/framework.config.php:728
+msgid "Enter the number of Column to show in Portfolio."
+msgstr ""
+
+#: framework/config/framework.config.php:735
+msgid "Default Portfolio Number Show"
+msgstr ""
+
+#: framework/config/framework.config.php:737
+msgid "Enter the number of posts to show in the Portfolio section."
+msgstr ""
+
+#: framework/config/framework.config.php:743
+msgid "Default Project Description Text"
+msgstr ""
+
+#: framework/config/framework.config.php:744
+msgid "Project Description"
+msgstr ""
+
+#: framework/config/framework.config.php:749
+msgid "Default Project Details Text"
+msgstr ""
+
+#: framework/config/framework.config.php:750
+msgid "Project Details"
+msgstr ""
+
+#: framework/config/framework.config.php:755
+msgid "Default Client Text"
+msgstr ""
+
+#: framework/config/framework.config.php:756
+msgid "Client"
+msgstr ""
+
+#: framework/config/framework.config.php:761
+msgid "Default Start Date Text"
+msgstr ""
+
+#: framework/config/framework.config.php:762
+msgid "Start Date"
+msgstr ""
+
+#: framework/config/framework.config.php:767
+msgid "Default End Date Text"
+msgstr ""
+
+#: framework/config/framework.config.php:768
+msgid "End Date"
+msgstr ""
+
+#: framework/config/framework.config.php:773
+msgid "Default Web Site Text"
+msgstr ""
+
+#: framework/config/framework.config.php:774
+msgid "Web Site"
+msgstr ""
+
+#: framework/config/framework.config.php:779
+msgid "Default Tag Text"
+msgstr ""
+
+#: framework/config/framework.config.php:780
+msgid "Tag"
+msgstr ""
+
+#: framework/config/framework.config.php:787
+msgid "Show Social Media"
+msgstr ""
+
+#: framework/config/framework.config.php:808
+msgid ""
+"Enable or disable social sharing buttons on single posts using these buttons."
+msgstr ""
+
+#: framework/config/framework.config.php:814
+msgid "Social Media Buttons"
+msgstr ""
+
+#: framework/config/framework.config.php:816
+msgid ""
+"Check this box to show social sharing buttons after an article's content "
+"text."
+msgstr ""
+
+#: framework/config/framework.config.php:834
+msgid "Facebook Like"
+msgstr ""
+
+#: framework/config/framework.config.php:841
+msgid "StumbleUpon"
+msgstr ""
+
+#: framework/config/framework.config.php:853
+msgid "Reddit"
+msgstr ""
+
+#: framework/config/framework.config.php:873
+msgid ""
+"From here, you can control the fonts used on your site. You can choose from "
+"17 standard font sets, or from the Google Fonts Library containing 600+ "
+"fonts."
+msgstr ""
+
+#: framework/config/framework.config.php:878
+msgid "Navigation Font"
+msgstr ""
+
+#: framework/config/framework.config.php:889
+msgid "Article Title"
+msgstr ""
+
+#: framework/config/framework.config.php:899
+msgid "Content/Article Font"
+msgstr ""
+
+#: framework/config/framework.config.php:909
+msgid "Sidebar/Widget Title"
+msgstr ""
+
+#: framework/config/framework.config.php:919
+msgid "Sidebar/Widget Font"
+msgstr ""
+
+#: framework/config/framework.config.php:928
+msgid "Content H1"
+msgstr ""
+
+#: framework/config/framework.config.php:938
+msgid "Content H2"
+msgstr ""
+
+#: framework/config/framework.config.php:948
+msgid "Content H3"
+msgstr ""
+
+#: framework/config/framework.config.php:958
+msgid "Content H4"
+msgstr ""
+
+#: framework/config/framework.config.php:969
+msgid "Content H5"
+msgstr ""
+
+#: framework/config/framework.config.php:980
+msgid "Content H6"
+msgstr ""
+
+#: framework/config/framework.config.php:1004
+#: framework/config/framework.config.php:1036
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: framework/config/framework.config.php:1009
+msgid "Below Post Title"
+msgstr ""
+
+#: framework/config/framework.config.php:1010
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below your article "
+"title on single posts."
+msgstr ""
+
+#: framework/config/framework.config.php:1016
+msgid "Below Post Content"
+msgstr ""
+
+#: framework/config/framework.config.php:1017
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below the post "
+"content on single posts."
+msgstr ""
+
+#: framework/config/shortcode.config.php:76
+msgid "1 Column"
+msgstr ""
+
+#: framework/config/shortcode.config.php:77
+msgid "2 Column"
+msgstr ""
+
+#: framework/config/shortcode.config.php:78
+msgid "3 Column"
+msgstr ""
+
+#: framework/config/shortcode.config.php:79
+msgid "4 Column"
+msgstr ""
+
+#: framework/fields/background/background.php:34
+#: framework/fields/background/background.php:35
+#: framework/fields/upload/upload.php:23 framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: framework/fields/background/background.php:36
+#: framework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: framework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: framework/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: framework/fields/group/group.php:43 framework/fields/group/group.php:75
+msgid "Remove"
+msgstr ""
+
+#: framework/fields/icon/icon.php:25 framework/functions/actions.php:82
+msgid "Add Icon"
+msgstr ""
+
+#: framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: framework/fields/typography/typography.php:75
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: framework/fields/typography/typography.php:81
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/fields/typography/typography.php:123
+#: framework/functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: framework/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:102
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:104 functions.php:113 functions.php:122
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:111
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer"
+msgstr ""
+
+#: functions.php:529
+msgid "RSS URL"
+msgstr ""
+
+#: functions.php:530
+msgid "Google Profile URL"
+msgstr ""
+
+#: functions.php:531
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: functions.php:532
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: functions.php:533
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: functions.php:549 inc/wp-admin/edsbootstrap-admin-page.php:36
+#: inc/wp-admin/edsbootstrap-admin-page.php:110
+msgid "About"
+msgstr ""
+
+#: functions.php:554
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:559 inc/post_type.php:77 inc/post_type.php:78
+msgid "Testimonial"
+msgstr ""
+
+#: functions.php:564 inc/post_type.php:45 inc/post_type.php:46
+msgid "Team"
+msgstr ""
+
+#: functions.php:569
+msgid "Contact Us"
+msgstr ""
+
+#: header.php:93
+msgid "Toggle Navigation"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/comment-helper.php:14
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comment-helper.php:18
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/comment-helper.php:26
+msgid "(Edit)"
+msgstr ""
+
+#: inc/comment-helper.php:47
+msgid "Name"
+msgstr ""
+
+#: inc/comment-helper.php:49
+msgid "Email"
+msgstr ""
+
+#: inc/comment-helper.php:51
+msgid "Website"
+msgstr ""
+
+#: inc/comment-helper.php:62
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Upgrade pro"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Allows you to set up Slider section for OnePage Theme."
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Slider # 1"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Slider # 2"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Slider # 3"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Slider # 4"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Allows you to set up slider one for eDS Bootstrap Theme."
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Upload image for slider"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Enter heading for slider"
+msgstr ""
+
+#: inc/customizer.php:98 inc/customizer.php:116
+msgid "Dscription"
+msgstr ""
+
+#: inc/customizer.php:99 inc/customizer.php:117
+msgid "Enter dscription for slider"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Enter text for button"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Enter the button link"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Lite Theme Options"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Show Social Buttons on Header"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Show Social Buttons on Footer"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Show Contact Info on Header"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Show Sidebar Inside page layout"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "Post show"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Show full post"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Contact Location"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Contact Email"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Contact Phone"
+msgstr ""
+
+#: inc/customizer.php:282
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "Google-plus URL"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:302
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:311 index.php:29
+msgid "Blog - Posts List"
+msgstr ""
+
+#: inc/customizer.php:315
+msgid "Blog Posts List Page Title"
+msgstr ""
+
+#: inc/customizer.php:327 index.php:30
+msgid "There are many variations of passages"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Blog Posts List Page Sub Title"
+msgstr ""
+
+#: inc/customizer.php:370
+msgid ""
+" get more social media link(linkedin, youtube, vimeo, instagram, vk, reddit, "
+"digg), Powerful theme options And Lot of ......."
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "Demo PRO version"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Get PRO Version"
+msgstr ""
+
+#: inc/onepage.php:25
+msgid "One Page Elements"
+msgstr ""
+
+#: inc/onepage.php:36
+msgid "Menu Name"
+msgstr ""
+
+#: inc/onepage.php:39
+msgid "A custom Menu Title. It's Only for Home page"
+msgstr ""
+
+#: inc/onepage.php:43
+msgid "Row ID"
+msgstr ""
+
+#: inc/onepage.php:46
+msgid ""
+"A custom ID used for this row And Menu (#) tag. please use lowercase letters "
+"and without spaces"
+msgstr ""
+
+#: inc/post_type.php:11 inc/post_type.php:12
+msgid "Project & portfolio"
+msgstr ""
+
+#: inc/post_type.php:13
+msgid "Add Project & portfolio"
+msgstr ""
+
+#: inc/post_type.php:14
+msgid "Add Project & portfolio Item"
+msgstr ""
+
+#: inc/post_type.php:15
+msgid "Edit Project & portfolio"
+msgstr ""
+
+#: inc/post_type.php:16
+msgid "Add New Project & portfolio"
+msgstr ""
+
+#: inc/post_type.php:17 inc/post_type.php:51 inc/post_type.php:83
+msgid "View All"
+msgstr ""
+
+#: inc/post_type.php:18 inc/post_type.php:52 inc/post_type.php:84
+msgid "Search Item"
+msgstr ""
+
+#: inc/post_type.php:19 inc/post_type.php:53 inc/post_type.php:85
+msgid "No Latest Item"
+msgstr ""
+
+#: inc/post_type.php:20
+msgid "No Latest Project Found in trash"
+msgstr ""
+
+#: inc/post_type.php:40
+msgid "Project Categories"
+msgstr ""
+
+#: inc/post_type.php:47
+msgid "Add Members"
+msgstr ""
+
+#: inc/post_type.php:48
+msgid "Add Members Item"
+msgstr ""
+
+#: inc/post_type.php:49
+msgid "Edit Members"
+msgstr ""
+
+#: inc/post_type.php:50
+msgid "Add New Members"
+msgstr ""
+
+#: inc/post_type.php:54
+msgid "No Latest Team Members Found in trash"
+msgstr ""
+
+#: inc/post_type.php:79
+msgid "Add Testimonial"
+msgstr ""
+
+#: inc/post_type.php:80
+msgid "Add Testimonial Item"
+msgstr ""
+
+#: inc/post_type.php:81
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/post_type.php:82
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/post_type.php:86
+msgid "No Latest Testimonial Found in trash"
+msgstr ""
+
+#: inc/post_type.php:113
+msgid "Project Default Image"
+msgstr ""
+
+#: inc/post_type.php:116 inc/post_type.php:119
+msgid "Profile Picture"
+msgstr ""
+
+#: inc/template-tags.php:29 inc/template-tags.php:63
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:34 inc/template-tags.php:68
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:96 inc/template-tags.php:133
+#: template-parts/single-gallery.php:26 template-parts/single-video.php:38
+#: template-parts/single.php:50
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:110
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:118 template-parts/content-page.php:42
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:73
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:77
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:91
+msgid "Dismiss"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:92
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing edsbootstrap! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:94
+msgid "Get started with edsbootstrap"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:117
+msgid "Theme Info"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:119
+msgid "View Demo"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:121
+msgid "View PRO version Demo"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:123
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:138
+msgid "Free Vs PRO"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:141
+msgid "Changelog"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:175
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:176
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:177
+msgid "Customize"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:181
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:182
+msgid "Please put it in our support forum."
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:183
+msgid "Support"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:187
+msgid "Need more features?"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:188
+#: inc/wp-admin/edsbootstrap-admin-page.php:271
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:189
+msgid "Info about PRO version"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:199
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:199
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:202
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:202
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:219
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:276
+msgid "Features"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:277
+msgid "edsbootstrap"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:278
+msgid "edsbootstrap PRO"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:283
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:288
+msgid "Change Background"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:293
+msgid "Unlimited Text Color"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:298
+msgid "Flash News on top"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:303
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:308
+msgid "Choose Social Incons"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:313
+msgid "RTL Support"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:318
+msgid "Powerful theme options"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:323
+msgid "4 Blog Style"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:333
+msgid "Project Module"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:338
+msgid "Gallery Module"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:343
+msgid "WooCommerce Style"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:348
+msgid "Posts Slider"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:353
+msgid "Choose sidebar position"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:358
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:363
+msgid "Stick menu with logo"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:368
+msgid "Loading Page"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:373
+msgid "Font switcher"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:378
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:383
+msgid "Post views counter"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:388
+msgid "8 Shortcodes"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:393
+msgid "11 Exclusive Widgets"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:398
+msgid "Related Posts Box"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:403
+msgid "Information About Author Box"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:411
+msgid "View PRO version demo"
+msgstr ""
+
+#: inc/wp-admin/edsbootstrap-admin-page.php:412
+msgid "More Information"
+msgstr ""
+
+#: plugins/breadcrumbs.php:113
+msgid "Page"
+msgstr ""
+
+#: plugins/shortcode.php:35
+msgid "All"
+msgstr ""
+
+#: plugins/subtitle.php:16
+msgid "Enter title here"
+msgstr ""
+
+#: plugins/widgets.php:13
+msgid "EDS Icon,Text Widgets"
+msgstr ""
+
+#: plugins/widgets.php:16
+msgid "Displays a icon Block & TEXT Widgets"
+msgstr ""
+
+#: plugins/widgets.php:35
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#: plugins/widgets.php:35
+msgid "See 600+ Icon list: <a href=\""
+msgstr ""
+
+#: plugins/widgets.php:107
+msgid "EDS One Page Title"
+msgstr ""
+
+#: plugins/widgets.php:110
+msgid "Displays Home Page Title"
+msgstr ""
+
+#: plugins/widgets.php:186
+msgid "EDS Project & Portfolio"
+msgstr ""
+
+#: plugins/widgets.php:189 plugins/widgets.php:298
+msgid "Displays a Project & portfolio  Widgets"
+msgstr ""
+
+#: plugins/widgets.php:295
+msgid "EDS Testimonial"
+msgstr ""
+
+#: plugins/widgets.php:376
+msgid "EDS Team"
+msgstr ""
+
+#: plugins/widgets.php:379
+msgid "Displays a Team  Widgets"
+msgstr ""
+
+#: plugins/widgets.php:461
+msgid "EDS Recent Post"
+msgstr ""
+
+#: plugins/widgets.php:464
+msgid "Displays a latest post  Widgets"
+msgstr ""
+
+#: plugins/widgets.php:705
+msgid "EDS Gird Posts"
+msgstr ""
+
+#: plugins/widgets.php:708
+msgid "Displays a Gird Posts  Widgets"
+msgstr ""
+
+#: plugins/widgets.php:873 template-parts/content-audio.php:53
+#: template-parts/content-gallery.php:51 template-parts/content-search.php:45
+#: template-parts/content-video.php:52 template-parts/content.php:82
+msgid "Continue Reading"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-audio.php:40 template-parts/content-gallery.php:38
+#: template-parts/content-video.php:39 template-parts/content.php:69
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-audio.php:45 template-parts/content-gallery.php:43
+#: template-parts/content-page.php:30 template-parts/content-video.php:44
+#: template-parts/content.php:74
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/single-gallery.php:28 template-parts/single-video.php:40
+#: template-parts/single.php:52
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: template-parts/single-gallery.php:40 template-parts/single-video.php:52
+#: template-parts/single.php:64
+msgid "Prev Article"
+msgstr ""
+
+#: template-parts/single-gallery.php:41 template-parts/single-video.php:53
+#: template-parts/single.php:65
+msgid "Next Article"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "edsBootstrap Pro"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://edatastyle.com/product/eds-bootstrap-wp/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"dsBootstrap is a modern and elegant One-Page WordPress Theme with a bold "
+"look, perfect for creative people, suitable for any type of business, built "
+"for any needs. Every single detail is carefully designed and crafted, in "
+"order to create a seamless and wonderful user experience. edsBootstrap was "
+"built with awesome Twitter Bootstrap v3 and it huge features cool page "
+"builder elements, unlimited colour schemes, responsive, the layout will "
+"adapt to different screen sizes which will make your website be compatible "
+"with any device such as smart phones, tablets or desktop computers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "eDataStyle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://edatastyle.com"
+msgstr ""
