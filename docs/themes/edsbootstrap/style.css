@@ -187,7 +187,7 @@ body {
   font-family: inherit;
   color: #fff !important;
   border-color: #ff5555 !important;
-  background-color: #ff5555 !important;
+  background-color: #5571ff !important;
 }
 .btn:focus,
 .btn.focus {
@@ -268,7 +268,7 @@ body {
   border: solid 1px #ff5555;
 }
 .list li:hover::before {
-  background: #ff5555;
+  background: #3a3333;
 }
 .list-inline {
   list-style: none;
@@ -291,7 +291,7 @@ body {
   color: #777;
 }
 .breadcrumb a:hover {
-  color: #ff5555;
+  color: #ff55dd;
 }
 /*
  * Pagination
@@ -330,13 +330,13 @@ body {
 .page-numbers li a.focus,
 .page-numbers li span.focus {
   color: #fff !important;
-  background: #ff5555 !important;
-  border-color: #ff5555 !important;
+  background: #212c20 !important;
+  border-color: #55ffc3 !important;
 }
 .page-numbers li a.current,
 .page-numbers li span.current {
   color: #fff !important;
-  background: #ff5555;
+  background: #a7ff55;
   border-color: #ff5555;
 }
 /*
@@ -355,7 +355,7 @@ body {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  background: #ff5555;
+  background: #716161;
 }
 /*
  * Panels
@@ -421,7 +421,7 @@ body {
 }
 .panel.panel-theme .panel-heading a:not(.collapsed) {
   color: #fff;
-  background: #ff5555;
+  background: #555dff;
 }
 .panel.panel-theme .panel-body {
   border-top: solid 1px #eee !important;
@@ -453,7 +453,7 @@ body {
 .tags a:hover{
   color: #fff;
   text-decoration: none;
-  background: #ff5555;
+  background: #ff55e5;
   border: solid 1px #ff5555;
 }
 /*
@@ -545,13 +545,13 @@ a {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-weight: 500;
-  color: #ff5555;
+   color: #175384; /* couleur des liens  */
 }
 a:hover,
 a.hover,
 a:focus,
 a.focus {
-  color: #777;
+  color: #2383d1; /* couleur des liens hover */
   text-decoration: none;
 }
 .strong,
@@ -646,7 +646,7 @@ p {
   color: #fff;
   text-align: center;
   line-height: 34px;
-  background: #ff5555;
+  background: #6955ff;
 }
 .scroll-to-top .icon {
   font-size: 18px;
@@ -705,7 +705,7 @@ p {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  border-top-color: #f5817f;
+  border-top-color: #7ff5c6;
   -webkit-animation: loaderAnimation 1.4s ease-in infinite;
   -o-animation: loaderAnimation 1.4s ease-in infinite;
   animation: loaderAnimation 1.4s ease-in infinite;
@@ -879,8 +879,8 @@ label.error {
 }
 .navbar .information a:hover {
   color: #fff;
-  background: #ff5555;
-  border-color: #ff5555;
+  background: #55ff99;
+  border-color: #eee;
 }
 .navbar .information .social {
   float: right;
@@ -904,8 +904,8 @@ label.error {
 }
 .navbar .information .social li a:hover {
   color: #fff;
-  background: #ff5555;
-  border-color: #ff5555;
+  background: #55ff5b;
+  border-color: #eee;
 }
 .navbar .brand {
   position: absolute;
@@ -945,9 +945,9 @@ label.error {
 .navbar .nav li a.hover,
 .navbar .nav li a:focus,
 .navbar .nav li a.focus,
-.navbar .nav li.active > a {
-  color: #fff;
-  background: #ff5555;
+.navbar .nav li.active > a { /*couleur du menu hover*/
+  color: #6f2082;
+  background: #fff; 
 }
 .navbar .nav li.dropdown .dropdown-menu {
   -webkit-border-radius: 0;
@@ -957,7 +957,7 @@ label.error {
   -moz-box-shadow: none;
   box-shadow: none;
   text-transform: capitalize;
-  border-top: solid 1px #ff5555;
+  border-top: solid 1px #6f2082;
   left: 4px;
   right: auto;
 }
@@ -968,7 +968,7 @@ label.error {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-top: 14px;
-  border: solid 1px #777;
+  border: solid 1px #6f2082;
 }
 .navbar .navbar-toggle .icon-bar {
   -webkit-transition: all 0.3s ease-in-out;
@@ -979,10 +979,10 @@ label.error {
   background: #777;
 }
 .navbar .navbar-toggle:hover {
-  border-color: #ff5555;
+  border-color: #6f2082;
 }
 .navbar .navbar-toggle:hover .icon-bar {
-  background: #ff5555;
+  background: #6f2082;
 }
 .navbar.navbar-fill .nav li a {
   -webkit-border-radius: 0;
@@ -1006,7 +1006,7 @@ label.error {
   margin-bottom: 0 !important;
   padding-top: 22px;
   padding-bottom: 20px;
-  background: transparent;
+  /* background: transparent; */
   border-bottom: solid 2px transparent;
 }
 .navbar.navbar-underline .nav li a:hover,
@@ -1615,7 +1615,7 @@ label.error {
  * Footer
  *--------------------------------------------------------------------------------------------------------------------*/
 .footer {
-  border-top: solid 2px #ff5555;
+  border-top: solid 1px #6f2082;
   padding-bottom: 10px;
 }
 .footer p {
@@ -1675,10 +1675,10 @@ label.error {
   background: #777;
 }
 .footer .menu li:hover a {
-  color: #ff5555;
+  /* color: #ff5555; */
 }
 .footer .menu li:hover::before {
-  background-color: #ff5555;
+  background-color: #55ff77;
 }
 /*--------------------------------------------------------------------------------------------------------------------
  * Inner Pages
@@ -1764,7 +1764,7 @@ label.error {
   line-height: 68px;
   text-align: center;
   color: #fff;
-  background: #ff5555;
+  background: #55ff99;
 }
 .blog-post .image .image-overlay .icon-wr .icon {
   display: inline-block;
@@ -1866,11 +1866,11 @@ h3.comment-reply-title::after {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #777;
+  color: #d11a1a;
   border-bottom: solid 1px #eee;
 }
 #secondary .widget ul a:hover {
-  color: #ff5555;
+  color: #e0ff55;
   padding-left: 10px;
 }
 /*
@@ -2096,7 +2096,7 @@ h3.comment-reply-title{
   left: 0;
   width: 20%;
   height: 1px;
-  background: #ff5555;
+  background: #daff55;
 }
 .project-information p {
   text-align: justify;
@@ -2154,7 +2154,7 @@ h3.comment-reply-title{
 .projects-carousel .recent-project:hover .info {
   padding-left: 10px;
   color: #fff;
-  background: #ff5555;
+  background: #55e5ff;
 }
 .projects-carousel .recent-project:hover .info .title {
   color: #fff;
@@ -2181,7 +2181,7 @@ h3.comment-reply-title{
   height: 32px;
   line-height: 28px;
   opacity: .9;
-  background: #ff5555;
+  background: #7a0b0b;
 }
 .projects-carousel .owl-controls .owl-buttons div i.fa {
   font-size: 16px;
@@ -2591,7 +2591,7 @@ h2.screen-reader-text{
 	font-weight:normal;
 }
 .search-submit{
-	background-color: #ff5555 !important;
+	background-color: #77ff55 !important;
     border-color: #ff5555 !important;
     border-radius: 3px;
     color: #fff !important;
