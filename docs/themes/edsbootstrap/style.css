@@ -1035,7 +1035,7 @@ label.error {
   position: fixed;
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.3); 
 }
 .navbar.affix .information {
   height: 0;
@@ -1147,7 +1147,7 @@ label.error {
   animation: scaleUpTo 1.2s ease both;
 }
 /*--------------------------------------------------------------------------------------------------------------------
- * Section: Features
+ * Section: Features  (navbar ????) 
  *--------------------------------------------------------------------------------------------------------------------*/
 .feature {
   margin-bottom: 30px;
@@ -1170,8 +1170,8 @@ label.error {
   line-height: 96px;
   font-size: 32px;
   margin: 0 auto 30px;
-  color: #ff5555;
-  border: solid 1px #ff5555;
+  color: #ff5555; 
+  border: solid 1px #ff5555; 
 }
 .feature .title {
   margin-bottom: 30px;

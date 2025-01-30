@@ -60,6 +60,23 @@ body {
 	font-weight: bold;
 }
 
+.peopleimg{
+	margin-left: auto; 
+	margin-right:auto; 
+	background-size:cover !important;
+}
+
+.pagetitle {
+	font-weight:bold; 
+	color: #702082; 
+	text-align: center;
+}
+
+.softtitle {
+	text-align: center; 
+	font-weight: bold;
+}
+
 .formergrey{
 	color: #008c9e;
 }
